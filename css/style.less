@@ -17,6 +17,7 @@ body {
     margin-right: auto;
     font-size: 15px;
     line-height: 1.5;
+    font-family: Verdana,sans-serif;
 }
 
 main {
@@ -42,6 +43,71 @@ footer {
 
 .section_1 {
     grid-area: mylogo;
+    height: 700px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    .logo {
+        padding: 16px;
+
+       .logo_header {
+        padding-top: 64px;
+        padding-bottom: 64px;
+
+        h2 {
+            font-weight: 400;
+            margin: 10px 0;
+            font-size: 36px;
+        }
+       }
+
+       .logo_content {
+            padding-top: 64px;
+            padding-bottom: 64px;
+            text-align: center;
+            
+
+            p {
+                padding-top: 16px;
+                padding-bottom: 16px;
+                &:nth-of-type(1) {
+                    &:hover {
+                        color: #fff;
+                        background-color: #607d8b;
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    &:hover {
+                        color: #fff;
+                        background-color: #009688;
+                    }
+                }
+
+                &:nth-of-type(3) {
+                    &:hover {
+                        color: #fff;
+                        background-color: #616161;
+                    }
+                }
+
+                &:nth-of-type(4) {
+                    &:hover {
+                        color: #fff;
+                        background-color: #795548;
+                    }
+                }
+            }
+
+            a {
+                color: white;
+                width: 100%;
+                padding: 8px 16px;
+
+                
+            }
+       }
+    }
 }
 
 .section_2 {

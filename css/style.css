@@ -14,6 +14,7 @@ body {
   margin-right: auto;
   font-size: 15px;
   line-height: 1.5;
+  font-family: Verdana, sans-serif;
 }
 main {
   display: grid;
@@ -30,6 +31,52 @@ footer {
 }
 .section_1 {
   grid-area: mylogo;
+  height: 700px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.section_1 .logo {
+  padding: 16px;
+}
+.section_1 .logo .logo_header {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.section_1 .logo .logo_header h2 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+}
+.section_1 .logo .logo_content {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+.section_1 .logo .logo_content p {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.section_1 .logo .logo_content p:nth-of-type(1):hover {
+  color: #fff;
+  background-color: #607d8b;
+}
+.section_1 .logo .logo_content p:nth-of-type(2):hover {
+  color: #fff;
+  background-color: #009688;
+}
+.section_1 .logo .logo_content p:nth-of-type(3):hover {
+  color: #fff;
+  background-color: #616161;
+}
+.section_1 .logo .logo_content p:nth-of-type(4):hover {
+  color: #fff;
+  background-color: #795548;
+}
+.section_1 .logo .logo_content a {
+  color: white;
+  width: 100%;
+  padding: 8px 16px;
 }
 .section_2 {
   grid-area: about;
