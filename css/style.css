@@ -170,9 +170,60 @@ footer {
 }
 .section_5 {
   grid-area: swingby;
+  text-align: center;
+  color: white;
+  background-color: #616161;
+  height: 700px;
+  padding: 0 16px;
+}
+.section_5 > div {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.section_5 > div > p {
+  margin: 15px 0;
 }
 .section_6 {
   grid-area: contact;
+  color: white;
+  background-color: #009688;
+  height: 700px;
+  padding: 0 16px;
+}
+.section_6 .contact_main {
+  padding: 64px 24px;
+}
+.section_6 .contact_main > p {
+  opacity: 0.6;
+  margin: 15px 0;
+}
+.section_6 .contact_main form {
+  color: black;
+  background-color: white;
+  padding: 0 16px;
+  padding-top: 32px;
+  padding-bottom: 70px;
+}
+.section_6 .contact_main form .form_section {
+  margin: 16px 0;
+}
+.section_6 .contact_main form .form_section input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  font: inherit;
+}
+.section_6 .contact_main form button {
+  color: white;
+  background-color: #009688;
+  float: right;
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  font: inherit;
 }
 footer {
   grid-area: footer;
