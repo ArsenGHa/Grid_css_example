@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  line-height: 1.5;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 82px;
+  height: 100vh;
+  grid-template-areas: 'mylogo about' 'mywork resume' 'swingby contact' 'footer footer';
+}
+section {
+  row-gap: 16px;
+}
+footer {
+  background-color: black;
+}
+.section_1 {
+  grid-area: mylogo;
+}
+.section_2 {
+  grid-area: about;
+}
+.section_3 {
+  grid-area: mywork;
+}
+.section_4 {
+  grid-area: resume;
+}
+.section_5 {
+  grid-area: swingby;
+}
+.section_6 {
+  grid-area: contact;
+}
+footer {
+  grid-area: footer;
+}
