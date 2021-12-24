@@ -220,11 +220,28 @@ footer {
   background-color: #009688;
   float: right;
   border: none;
-  display: inline-block;
+  display: inherit;
   padding: 8px 16px;
   text-align: center;
   font: inherit;
 }
 footer {
   grid-area: footer;
+  color: white;
+  background-color: black;
+  padding: 16px;
+}
+footer > p {
+  margin: 15px 0;
+}
+footer > p a {
+  color: inherit;
+  font-size: 15px;
+}
+@media screen and (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 82px;
+    grid-template-areas: 'mylogo' 'about' 'mywork' 'resume' 'swingby' 'contact' 'footer';
+  }
 }
