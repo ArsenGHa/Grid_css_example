@@ -31,10 +31,10 @@ footer {
 }
 .section_1 {
   grid-area: mylogo;
-  height: 700px;
   color: white;
   background-color: black;
   text-align: center;
+  height: 700px;
 }
 .section_1 .logo {
   padding: 16px;
@@ -80,6 +80,32 @@ footer {
 }
 .section_2 {
   grid-area: about;
+  text-align: center;
+  color: white;
+  background-color: #607d8b;
+  height: 700px;
+}
+.section_2 .about_section {
+  padding: 16px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.section_2 .about_section > div h2 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+}
+.section_2 .about_section > div > img {
+  width: 50%;
+  border-radius: 50%;
+  margin: 16px;
+}
+.section_2 .about_section > div .about_text {
+  padding: 12px 24px;
+  text-align: left;
+}
+.section_2 .about_section > div .about_text p {
+  margin: 15px 0;
 }
 .section_3 {
   grid-area: mywork;

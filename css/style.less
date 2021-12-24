@@ -43,10 +43,10 @@ footer {
 
 .section_1 {
     grid-area: mylogo;
-    height: 700px;
     color: white;
     background-color: black;
     text-align: center;
+    height: 700px;
     .logo {
         padding: 16px;
 
@@ -112,6 +112,40 @@ footer {
 
 .section_2 {
     grid-area: about;
+    text-align: center;
+    color: white;
+    background-color: #607d8b;
+    height: 700px;
+    .about_section {
+        padding: 16px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        >div {
+            
+            h2 {
+                font-weight: 400;
+                margin: 10px 0;
+                font-size: 36px;
+            }
+
+            >img {
+                width: 50%;
+                border-radius: 50%;
+                margin: 16px;
+            }
+
+            .about_text {
+                padding: 12px 24px;
+                text-align: left;
+
+                p {
+                    margin: 15px 0;
+                }
+            }
+        }
+
+        
+    }
 }
 
 .section_3 {
