@@ -182,6 +182,46 @@ footer {
 
 .section_4 {
     grid-area: resume;
+    min-height: 800px;
+    color: white;
+    background-color: #3f51b5;
+    text-align: center;
+    padding: 64px 16px;
+
+    .resume_head {
+        p {
+            margin: 15px 0;
+        }
+    }
+
+    .resume_content {
+        padding: 0 16px;
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            display: table;
+
+            tr {
+                display: table-row;
+                vertical-align: inherit;
+                border-color: inherit;
+                &:nth-of-type(even) {
+                    background-color: white;
+                    color: black;
+                }
+
+                td {
+                    padding: 8px 8px;
+                    display: table-cell;
+                    text-align: left;
+                    vertical-align: top;
+                    padding-left: 16px;
+                }
+            }
+        }
+    }
 }
 
 .section_5 {

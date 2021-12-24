@@ -134,6 +134,39 @@ footer {
 }
 .section_4 {
   grid-area: resume;
+  min-height: 800px;
+  color: white;
+  background-color: #3f51b5;
+  text-align: center;
+  padding: 64px 16px;
+}
+.section_4 .resume_head p {
+  margin: 15px 0;
+}
+.section_4 .resume_content {
+  padding: 0 16px;
+}
+.section_4 .resume_content table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
+.section_4 .resume_content table tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.section_4 .resume_content table tr:nth-of-type(even) {
+  background-color: white;
+  color: black;
+}
+.section_4 .resume_content table tr td {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 16px;
 }
 .section_5 {
   grid-area: swingby;
