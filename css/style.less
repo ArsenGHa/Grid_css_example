@@ -11,6 +11,19 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+
 body {
     max-width: 1300px;
     margin-left: auto;
@@ -54,11 +67,6 @@ footer {
         padding-top: 64px;
         padding-bottom: 64px;
 
-        h2 {
-            font-weight: 400;
-            margin: 10px 0;
-            font-size: 36px;
-        }
        }
 
        .logo_content {
@@ -121,13 +129,6 @@ footer {
         padding-top: 64px;
         padding-bottom: 64px;
         >div {
-            
-            h2 {
-                font-weight: 400;
-                margin: 10px 0;
-                font-size: 36px;
-            }
-
             >img {
                 width: 50%;
                 border-radius: 50%;
@@ -150,6 +151,33 @@ footer {
 
 .section_3 {
     grid-area: mywork;
+    min-height: 800px;
+    color: black;
+    background-color: #f1f1f1;
+    text-align: center;
+
+    .work_head {
+        padding-top: 64px;
+        padding-bottom: 64px;
+
+        p {
+            margin: 15px 0;
+        }
+    }
+
+    .img_block {
+        display: flex;
+
+        img {
+            width: 100%;
+            vertical-align: middle;
+        }
+    }
+
+    >p {
+        margin-top: 33px;
+        margin-bottom: 15px;
+    }
 }
 
 .section_4 {

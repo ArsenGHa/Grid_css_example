@@ -8,6 +8,16 @@ li {
 a {
   text-decoration: none;
 }
+h2 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+}
+h3 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 30px;
+}
 body {
   max-width: 1300px;
   margin-left: auto;
@@ -42,11 +52,6 @@ footer {
 .section_1 .logo .logo_header {
   padding-top: 64px;
   padding-bottom: 64px;
-}
-.section_1 .logo .logo_header h2 {
-  font-weight: 400;
-  margin: 10px 0;
-  font-size: 36px;
 }
 .section_1 .logo .logo_content {
   padding-top: 64px;
@@ -90,11 +95,6 @@ footer {
   padding-top: 64px;
   padding-bottom: 64px;
 }
-.section_2 .about_section > div h2 {
-  font-weight: 400;
-  margin: 10px 0;
-  font-size: 36px;
-}
 .section_2 .about_section > div > img {
   width: 50%;
   border-radius: 50%;
@@ -109,6 +109,28 @@ footer {
 }
 .section_3 {
   grid-area: mywork;
+  min-height: 800px;
+  color: black;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.section_3 .work_head {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.section_3 .work_head p {
+  margin: 15px 0;
+}
+.section_3 .img_block {
+  display: flex;
+}
+.section_3 .img_block img {
+  width: 100%;
+  vertical-align: middle;
+}
+.section_3 > p {
+  margin-top: 33px;
+  margin-bottom: 15px;
 }
 .section_4 {
   grid-area: resume;
