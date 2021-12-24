@@ -226,10 +226,69 @@ footer {
 
 .section_5 {
     grid-area: swingby;
+    text-align: center;
+    color: white;
+    background-color: #616161;
+    height: 700px;
+    padding: 0 16px;
+
+    >div {
+        padding-top: 64px;
+        padding-bottom: 64px;
+
+        >p {
+            margin: 15px 0;
+        }
+    }
 }
 
 .section_6 {
     grid-area: contact;
+    color: white;
+    background-color: #009688;
+    height: 700px;
+    padding: 0 16px;
+
+    .contact_main {
+        padding: 64px 24px;
+
+        >p {
+            opacity: 0.6;
+            margin: 15px 0;
+        }
+
+        form {
+            color: black;
+            background-color: white;
+            padding: 0 16px;
+            padding-top: 32px;
+            padding-bottom: 70px;
+
+            .form_section {
+                margin: 16px 0;
+
+                input {
+                    padding: 8px;
+                    display: block;
+                    border: none;
+                    border-bottom: 1px solid #ccc;
+                    width: 100%;
+                    font: inherit;
+                }
+            }
+
+            button {
+                color: white;
+                background-color: #009688;
+                float: right;
+                border: none;
+                display: inline-block;
+                padding: 8px 16px;
+                text-align: center;
+                font: inherit;
+            }
+        }
+    }
 }
 
 footer {
